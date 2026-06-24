@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/starpatterns/__init__.py
+src/starpatterns/core.py
+src/starpatterns/fractals.py
+src/starpatterns/patterns.py
+src/starpatterns/shapes.py
+src/starpatterns/utils.py
+src/starpatters_lib.egg-info/PKG-INFO
+src/starpatters_lib.egg-info/SOURCES.txt
+src/starpatters_lib.egg-info/dependency_links.txt
+src/starpatters_lib.egg-info/top_level.txt
