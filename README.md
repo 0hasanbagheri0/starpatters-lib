@@ -93,16 +93,16 @@ print(color_text("StarPatterns-Lib", "blue", bold=True))
 # Utility Functions
 |Function	|Description|
 |:--- |:--- |
-|clear_screen()	Clear the terminal screen|
-|color_text(text, color, bold)	Colorize text in terminal|
-|get_terminal_size()	Get terminal dimensions|
+|clear_screen()	|Clear the terminal screen|
+|color_text(text, color, bold)	|Colorize text in terminal|
+|get_terminal_size()	|Get terminal dimensions|
 
 ---
 
-###🛠️ Requirements
-  Python 3.7 or higher
+# 🛠️ Requirements
+##  Python 3.7 or higher
 
- # No external dependencies
+##  No external dependencies
 
 ---
 
@@ -111,27 +111,29 @@ We welcome contributions! Please:
 
 1.Fork the repository
 
-2.Create a new branch (git checkout -b feature/amazing-feature)
+2.Create a new branch (```bash git checkout -b feature/amazing-feature ```)
 
-3.Commit your changes (git commit -m 'Add amazing feature')
+3.Commit your changes (```bash git commit -m 'Add amazing feature' ```)
 
-4.Push to the branch (git push origin feature/amazing-feature)
+4.Push to the branch (```bash git push origin feature/amazing-feature ```)
 
 5.Open a Pull Request
 ---
-###📄 License
+# 📄 License
 This project is licensed under the MIT License.
 ---
-###📧 Contact
+# 📧 Contact
  Email: hasan111bagher@gmail.com
 
- GitHub: 0hasanbagheri0
-------
-### فارسی
-#📁 StarPatterns-Lib
+ GitHub: https://github.com/0hasanbagheri0
+---
+---
+## 🌐 فارسی  |   [English](#English)
+
+# 📁 StarPatterns-Lib
  StarPatterns-Lib کتابخانه‌ای برای تجسم الگوهای ریاضی، اشکال هندسی و فراکتال‌ها در ترمینال با استفاده از کاراکترهای ASCII است. ابزاری عالی برای آموزش برنامه‌نویسی، ریاضیات و خلق آثار هنری متنی.
 ---
-###✨ ویژگی‌ها
+### ✨ ویژگی‌ها
  اشکال هندسی: خط، مستطیل، دایره، مثلث
 
  الگوهای تزیینی: شبکه، شطرنجی، مورب، مارپیچ
@@ -142,38 +144,50 @@ This project is licensed under the MIT License.
 
  بدون وابستگی: فقط با ماژول‌های استاندارد پایتون
 ---
-###📦 نصب
+### 📦 نصب
 
 ```bash
 pip install starpatterns-lib
 ```
 ---
-🚀 شروع سریع
+
+# 🚀 شروع سریع
+
 ```bash
 from starpatterns import Canvas, draw_circle, sierpinski_triangle, color_text
 ```
+
 # ایجاد بوم
+
 ```bash
 canvas = Canvas(60, 20)
 ```
+
 # رسم دایره
+
 ```bash
 circle = draw_circle(canvas, 30, 10, 8, "*")
 circle.draw()
 ```
+
 # رسم فراکتال
+
 ```bash
 canvas2 = Canvas(60, 20)
 triangle = sierpinski_triangle(canvas2, 5, 18, 50, 3, "#")
 triangle.draw()
 ```
+
 # متن رنگی
+
 ```bash
 print(color_text("StarPatterns-Lib", "blue", bold=True))
 ```
 
-##📚 راهنمای توابع
+## 📚 راهنمای توابع
+
 # کلاس Canvas
+
 |توضیح|تابع 
 |:---|:---|
 |Canvas(width, height, char)|	ایجاد بوم جدید|
@@ -182,28 +196,40 @@ print(color_text("StarPatterns-Lib", "blue", bold=True))
 |draw()	|نمایش بوم در ترمینال|
 |clear()|	پاک کردن بوم|
 |fill(char)	|پر کردن کل بوم با یک کاراکتر|
+
 # توابع اشکال
+
 |تابع	|توضیح|
+|:---|:---|
 |draw_line(canvas, x1, y1, x2, y2, char)	|رسم خط با الگوریتم برزنهام|
 |draw_rectangle(canvas, x, y, width, height, char)	|رسم مستطیل|
 |draw_circle(canvas, cx, cy, radius, char)	|رسم دایره با الگوریتم نقطه‌میانی|
 |draw_triangle(canvas, x1, y1, x2, y2, x3, y3, char)|	رسم مثلث|
+
 # توابع الگوها
+
 |تابع	|توضیح|
 |:---|:---|
 |draw_grid(canvas, spacing, char)	|رسم شبکه|
 |draw_checkerboard(canvas, size, char1, char2)|	رسم صفحه شطرنجی|
 |draw_diagonal(canvas, char)	|رسم الگوی مورب|
 |draw_spiral(canvas, cx, cy, max_radius, char)	|رسم مارپیچ|
+
 # توابع فراکتال
-تابع	توضیح|
-sierpinski_triangle(canvas, x, y, size, depth, char)	رسم مثلث سیرپینسکی|
-koch_snowflake(canvas, x1, y1, x2, y2, depth, char)	رسم دانه برف کخ|
-# توابع کمکی
+
 |تابع	|توضیح|
+|:---|:---|
+sierpinski_triangle(canvas, x, y, size, depth, char)	|رسم مثلث سیرپینسکی|
+koch_snowflake(canvas, x1, y1, x2, y2, depth, char)	|رسم دانه برف کخ|
+
+# توابع کمکی
+
+|تابع	|توضیح|
+|:---|:---|
 |clear_screen()	|پاک کردن صفحه ترمینال|
 |color_text(text, color, bold)|	رنگ‌آمیزی متن در ترمینال|
 |get_terminal_size()	|دریافت اندازه ترمینال|
+
 ---
 # 🛠️ نیازمندی‌ها
 
