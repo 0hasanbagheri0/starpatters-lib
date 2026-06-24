@@ -111,11 +111,11 @@ We welcome contributions! Please:
 
 1.Fork the repository
 
-2.Create a new branch (```bash git checkout -b feature/amazing-feature ```)
+2.Create a new branch (``` git checkout -b feature/amazing-feature ```)
 
-3.Commit your changes (```bash git commit -m 'Add amazing feature' ```)
+3.Commit your changes (``` git commit -m 'Add amazing feature' ```)
 
-4.Push to the branch (```bash git push origin feature/amazing-feature ```)
+4.Push to the branch (``` git push origin feature/amazing-feature ```)
 
 5.Open a Pull Request
 ---
@@ -233,31 +233,34 @@ koch_snowflake(canvas, x1, y1, x2, y2, depth, char)	|رسم دانه برف کخ
 ---
 # 🛠️ نیازمندی‌ها
 
- Python 3.7 یا بالاتر
+Python 3.7 یا بالاتر
 
- بدون وابستگی‌های خارجی 
+بدون وابستگی‌های خارجی 
 ---
 # 🤝 مشارکت
- از مشارکت شما استقبال می‌کنیم! لطفاً :
-1.
-مخزن را Fork کنید
-2.
-یک شاخه جدید بسازید (git checkout -b feature/amazing-feature)
-3.
-تغییرات را Commit کنید (git commit -m 'Add amazing feature')
-4.
-به شاخه خود Push کنید (git push origin feature/amazing-feature)
-5.
-یک Pull Request باز کنید
+
+از مشارکت شما استقبال می‌کنیم! لطفاً :
+
+1.مخزن را Fork کنید
+
+2.یک شاخه جدید بسازید (``` git checkout -b feature/amazing-feature ```)
+
+3.تغییرات را Commit کنید (``` git commit -m 'Add amazing feature' ```)
+
+4.به شاخه خود Push کنید (``` git push origin feature/amazing-feature ```)
+
+5.یک Pull Request باز کنید
+
 ---
 # 📄 مجوز
 این پروژه تحت مجوز MIT منتشر شده است.
 ---
 # 📧 ارتباط با من
-ایمیل: hasan111bagher@gmail.com
+ایمیل:
+hasan111bagher@gmail.com
 
 گیت‌هاب:
- 0hasanbagheri0
+https://github.com/0hasanbagheri0
 ---
-# ✨ اگر این کتابخانه برای شما مفید بود، به آن یک ⭐ در گیت‌هاب بدهید!
+### ✨ اگر این کتابخانه برای شما مفید بود، به آن یک ⭐ در گیت‌هاب بدهید!
 ------
